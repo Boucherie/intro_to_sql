@@ -1,0 +1,23 @@
+02 - Intro to SQL Queries
+
+1. SELECT * FROM robots WHERE source='The Hitchhiker''s Guide to the Galaxy'; 
+2. SELECT * FROM robots WHERE personality='anxious';
+3. SELECT name FROM recipes WHERE nut_free=true;
+4. SELECT Count(name) FROM recipes WHERE gluten_free=true AND vegetarian=false;
+
+5. SELECT MAX(number_of_legs) FROM animals;
+
+
+6. SELECT MIN(mins_to_play) FROM board_games;
+
+7. SELECT MAX(minutes_required) FROM recipes;
+
+8. SELECT * FROM robots WHERE name LIKE 'M%';
+
+9. SELECT * FROM board_games WHERE max_players >= 8 AND min_players <= 8;
+
+10. intro_to_sql=# SELECT name FROM animals WHERE swimming=true AND egg_laying=true;
+
+11. intro_to_sql=# SELECT name FROM animals WHERE swimming=true AND egg_laying=true AND flying=false;
+
+12. SELECT MAX(max_players) FROM board_games;
